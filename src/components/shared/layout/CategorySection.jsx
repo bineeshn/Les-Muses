@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import AddItem from "../../AddItem/AddItem";
+import AddItem from "../../addItem/AddItem";
 import ProductCard from "../../cards/ProductCard";
 import { Container, Heading, Button } from "../Design";
 import { useLocation } from "react-router-dom";

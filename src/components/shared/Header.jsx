@@ -54,12 +54,12 @@ export const Header = () => {
             <header
                 className={
                     isHomePage
-                        ? `header py-1 bg-primary scrolled`
+                        ? `header bg-primary scrolled`
                         : `header bg-primary shadow-s1 scrolled`
                 }
             >
                 <Container>
-                    <nav className="p-4 flex justify-between items-center relative">
+                    <nav className="p-2 flex justify-between items-center relative">
                         <div className="flex items-center gap-14">
                             <div className="font-bold text-gold">
                                 {/* {isHomePage && !isScrolled ? (
